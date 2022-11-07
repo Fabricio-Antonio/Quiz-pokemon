@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head id="header">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="CSS/Quiz.css">
+    <title>Quiz Pokémon</title>
+</head>
+
+
+<body>
+    <container>
+        <main class="tela-principal">
+
+            <section class="conteudo">
+
+                <h1>Quiz Pokémon</h1>
+
+                <article class="centro" id="instrucoes">
+                    Veremos se você é um verdadeiro(a) mestre/mestra pokémon
+                </article>
+
+                <article class="questoes">
+
+                    <header class="questao">
+                        <span id="numQuestao"></span>
+                        <h2 id="pergunta"></h2>
+                    </header>
+
+                    <div class="corpo">
+                        <ol type="A" id="alternativas">
+                            <li id="a" value="1A" class="resposta" onClick="verificarSeAcertou(this, this)"></li>
+                            <li id="b" value="1B" class="resposta" onClick="verificarSeAcertou(this, this)"></li>
+                            <li id="c" value="1C" class="resposta" onClick="verificarSeAcertou(this, this)"></li>
+                        </ol>
+                    </div>
+                </article>
+
+                <article id="aviso">Questão <span id="numero"></span> de <span id="total"></span></article>
+
+            </section>
+            
+        </main>
+    </container>
+    <audio preload src="audio/positive.mp3" id='somAcerto'></audio>
+<audio preload src="audio/negative.mp3" id='somErro'></audio>
+<audio preload src="audio/aplausos.mp3" id='somAplausos'></audio>
+
+    <!--JS do Quiz -->
+    <script src="quiz.js"></script>
+</body>
+
+</html>
