@@ -1,6 +1,6 @@
 # Quiz pokémon
 
-![Previw](preview.jpg)
+![Previw](preveiw.jpg)
 
 >Um jogo básico de quiz com temática pokémon
 
