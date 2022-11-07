@@ -6,7 +6,7 @@
 
 Esse projeto é um jogo básico de quiz feito com JavaScript na temática pokémon
 
-[Click aqui para acessar!](https://card-animado-reflexo.vercel.app)
+[Click aqui para acessar!]([https://card-animado-reflexo.vercel.app](https://quiz-pokemon-nine.vercel.app)
 
 ## Tecnologias 🛠️
 - HTML
